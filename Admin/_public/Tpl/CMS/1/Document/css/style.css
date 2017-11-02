@@ -9,8 +9,8 @@ html, body {
 	background-color: black;
 	color: #9B9B9B;
 	font-family: sans-serif;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 a {
 	text-decoration: none;
@@ -30,7 +30,7 @@ button {
 	border: none;
 	border-radius: 2px;
 	outline: none;
-	text-indent: 1px #000;
+	text-indent: 1px;
 	color: #1f1f1f;
 	padding: 5px;
 	cursor: pointer;
@@ -552,7 +552,6 @@ div.task {
     position: relative;
     cursor: pointer;
     padding: 5px;
-    height: padding:3px;
     margin-bottom: 3px;
     background: #464646;
     /* border-radius: 2px; */
