@@ -1,0 +1,1 @@
+ <img src="%DOCUMENT_PATH%/img/example.jpg" />

@@ -1,0 +1,1 @@
+<div>%KAS_LARGE_DESCRIPTION%</div>

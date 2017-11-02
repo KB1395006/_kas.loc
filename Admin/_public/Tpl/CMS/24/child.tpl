@@ -1,0 +1,1 @@
+<li data-id="%KAS_ID%" class="transition"><a href="%KAS_IMG_LARGE%"><img src="%KAS_IMG_MIDDLE%" data-width="%KAS_WIDTH%" data-height="%KAS_HEIGHT%" /></a></li>

@@ -1,0 +1,1 @@
+<section class="t-groups transition" data-group-col="KAS_CID KAS_CATEGORY_NAME"><ul>%CHILD%</ul></section>

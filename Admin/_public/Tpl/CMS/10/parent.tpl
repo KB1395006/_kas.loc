@@ -1,0 +1,1 @@
+<div class="task transition" data-task-id="%KAS_ID%" data-task-type="%KAS_TYPE%"><span>%KAS_NAME%</span><span class="ico ico-delete ico-l transition"></span></div>

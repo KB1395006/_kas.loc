@@ -1,0 +1,1 @@
+<tr data-id="%KAS_ID%"><td>%KAS_ID%</td><td data-st="" data-key=""><div contenteditable="" data-content="">%KAS_NAME%</div></td></tr>

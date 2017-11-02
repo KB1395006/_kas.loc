@@ -1,0 +1,1 @@
+<li><span class="ico ico-file ico-s"></span><span data-name="%KAS_NAME%" data-type="file" data-ext="%KAS_EXT%">%KAS_NAME%</span><span data-last-mod="">%KAS_DATE%</span></li>

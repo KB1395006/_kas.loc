@@ -1,0 +1,1 @@
+<li class="transition"><a href="%KAS_CID%">%KAS_CATEGORY_NAME%</a></li>

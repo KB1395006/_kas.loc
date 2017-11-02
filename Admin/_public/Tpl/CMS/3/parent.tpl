@@ -1,0 +1,3 @@
+
+<section class="content"><section class="c-title">Управление каталогом:</section>
+<section class="area a-left">%CONTENT%</section><section class="zone v-zone hide"></section><section class="area a-right"><div class="cat-ins hide"><textarea placeholder="Укажите название категорий в столбик или через запятую"></textarea><div><button class="hide" data-action="">Добавить</button></div></div></section></section>

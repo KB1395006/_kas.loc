@@ -1,0 +1,11 @@
+/
+/index/
+/post/%ID%/
+/list/
+/new/
+/remove/
+/about/
+/main/
+/contacts/
+/posts/
+/catalog/

@@ -1,0 +1,1 @@
+<li><a href="%HTTP_PATH%/catalog/%KAS_ID%/">%KAS_NAME%</a><!--CHILD_%KAS_ID%--></li>

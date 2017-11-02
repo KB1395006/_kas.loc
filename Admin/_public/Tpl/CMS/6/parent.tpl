@@ -1,0 +1,1 @@
+<tr data-id="%KAS_ID%"><td data-key="SELECT"><div><input type="checkbox" /></div></td>%CONTENT%</tr>

@@ -1,0 +1,189 @@
+section.upload-manager-wrapper 
+{
+	background: #3c3c3c;
+    position: fixed !important;
+    top: 5px;
+    left: 30%;
+    z-index: 999;
+    border: 1px solid #464646;
+    border-radius: 4px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    width: 450px;
+}
+section.upload-manager-wrapper > .well {
+	margin: 0;
+}
+section.upload-manager-wrapper span[data-count] {
+	position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #504e4e;
+    padding: 2px 3px;
+    border-radius: 3px;
+    color: #b3b3b3;
+}
+div.upload-manager-list, div.upload-manager-err {
+	margin-top: 20px;
+}
+div.upload-manager-list, div.upload-manager-err {
+	max-height: 400px;
+	overflow-y: scroll;
+	padding-right: 5px;
+	position: relative;
+}
+div.upload-manager-err > div {
+	position: relative;
+}
+span[data-err-close] {
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+section.upload-manager-wrapper td[data-num] {
+	width: 30px;
+}
+section.upload-manager-wrapper td[data-file] {
+	color: #777;
+	max-width: 200px;
+}
+section.upload-manager-wrapper td[data-wait] {
+	background: url(../img/kas-um-wait.gif) center no-repeat;
+}
+section.upload-manager-wrapper section[data-progress] {
+	margin-top: 10px;
+}
+section.upload-manager-wrapper section[data-progress] > button {
+	float: right;
+}
+section.upload-manager-wrapper td[data-fsize] {
+	width: 50px;
+}
+section.upload-manager-wrapper img[data-l-img] {
+	position: absolute;
+	top: 0;
+	left: 165px;
+}
+section.upload-manager-wrapper .btn-default {
+	color: #fff;
+    background-color: #faa21a;
+    border-color: #ccc;
+    width: 120px;
+    overflow: hidden;
+}
+section.upload-manager-wrapper .btn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	position: relative;
+}
+
+section.upload-manager-wrapper input[type="file"] {
+	display: block;
+    position: absolute;
+    top: 6px;
+    left: -100px;
+    opacity: 0;
+    cursor: pointer;
+}
+section.upload-manager-wrapper  div.alert {	
+	color: #6f6f6f;
+	font-size: 12px;
+	width: 400px;
+}
+section.upload-manager-wrapper .sr-only {
+	color: #a06262;
+    padding-right: 5px;
+}
+section.upload-manager-wrapper .sr-only-ok {
+	color: #69de69;
+    padding-right: 5px;
+}
+section.upload-manager-wrapper div.alert-danger {	
+    padding-right: 5px;
+    color: #6d6d6d;
+}
+
+section.upload-manager-wrapper .progress {
+    height: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+section.upload-manager-wrapper .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+section.upload-manager-wrapper .btn-xs, .btn-group-xs>.btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+section.upload-manager-wrapper .table {
+	font-size: 12px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+section.upload-manager-wrapper .table>thead>tr>th, 
+section.upload-manager-wrapper .table>tbody>tr>th, 
+section.upload-manager-wrapper .table>tfoot>tr>th, 
+section.upload-manager-wrapper .table>thead>tr>td, 
+section.upload-manager-wrapper .table>tbody>tr>td, 
+section.upload-manager-wrapper .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+section.upload-manager-wrapper .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.upload-manager-close {
+	color: white;
+    font-size: 12px;
+    position: absolute;
+    right: 7px;
+    bottom: 3px;
+}

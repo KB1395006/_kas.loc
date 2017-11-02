@@ -1,0 +1,1 @@
+<div class="media"><ul>%CHILD%</ul></div>
